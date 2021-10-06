@@ -5,11 +5,11 @@ This was created in reference to JS Mini Project 1 requirement.
 
 I have used html, css and vanila javascript.
 
-Html file : index.html
+* Html file : index.html
 
-css :  stopwatch.css
+* css :  stopwatch.css
 
-Javascipt:  stopwatch.js
+* Javascipt:  stopwatch.js
 
 
 
@@ -22,25 +22,25 @@ The three contorl buttons are start, stop reset.
 
 <h2>Variables in JS file</h2>
 
-hours = hr
+* hours = hr
 
-Minutes = min
+* Minutes = min
 
-Seconds  = sec
+* Seconds  = sec
 
-stoptime : boolean flag to check if stopwatch is stopped or not
+* stoptime : boolean flag to check if stopwatch is stopped or not
 
 
 
 <h2>Functions used</h2>
 
-**Function startTimer** :   fucntion to start timer when 'Start' button is clicked.
+1. **Function startTimer** :   fucntion to start timer when 'Start' button is clicked.
 
-**Function stopTimer** :  fucntion to stop timer when 'stop' button is clicked
+2. **Function stopTimer** :  fucntion to stop timer when 'stop' button is clicked
 
-**Function timerCycle** : TimerCycle() is called after every 1000ms (1 sec) using setTimeout.
+3. **Function timerCycle** : TimerCycle() is called after every 1000ms (1 sec) using setTimeout.
 If seconds are more than 60, minutes become 1 and seconds 0.
 Similarly if minutes are more thant 60, hours become 1 and minutes 0.
 
-**Function resetTimer** : fucntion to reset timer when 'reset' button is clicked
+4. **Function resetTimer** : fucntion to reset timer when 'reset' button is clicked
 
